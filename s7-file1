@@ -17,6 +17,4 @@ services:
     image: your-ui-image
     # other configurations for your UI service
 
-  redis:
-    image: redis:latest
-    # other configurations for your Redis service
+ 
