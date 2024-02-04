@@ -1,1 +1,22 @@
-welcome 
+version: '3'
+
+services:
+  db:
+    image: your-db-image
+    # other configurations for your database service
+
+  weather:
+    image: your-weather-image
+    # other configurations for your weather service
+
+  auth:
+    image: your-auth-image
+    # other configurations for your authentication service
+
+  ui:
+    image: your-ui-image
+    # other configurations for your UI service
+
+  redis:
+    image: redis:latest
+    # other configurations for your Redis service
